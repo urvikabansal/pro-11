@@ -27,8 +27,8 @@ leftBoundary=createSprite(0,0,100,800);
 
 // leftBoundary.invisible = false;
 // leftBoundary.visible = true;
-// leftBoundary.invisible = true;
-// leftBoundary.visible = false;
+ //leftBoundary.invisible = true;
+ leftBoundary.visible = false;
 
 
 rightBoundary=createSprite(410,0,100,800);
@@ -52,15 +52,15 @@ function draw() {
     path.y = height/2;
   }
 
-  /*if(path.y > 400 ){
+  //if(path.y > 400 ){
    
-  path.y = height/2;
-  }*/
+//  path.y = height/2;
+ // }
 
-  /*if(path.y > 400 ){
-path.y = height/2;}*/
+ // if(path.y > 400 ){
+//path.y = height/2;}
 
-/*if(path.y > 400 ){path.y = height/2;}*/
+//if(path.y > 400 ){path.y = height/2;}*/
   
   drawSprites();
 }
